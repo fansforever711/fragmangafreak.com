@@ -1,0 +1,144 @@
+body{
+    background-image: url("../img/radilbackground.jpg");
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.typewriter h1 {
+    font-family: monospace; /* Web-safe typewriter-like font */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 5.5s steps(30, end),
+      blinking-cursor .5s step-end infinite;
+    font-size: 60px;
+}
+  
+  /* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+  /* The typewriter cursor effect */
+@keyframes blinking-cursor {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+.logo {
+    border-radius: 50%;
+    float: right;
+}
+
+.name{
+    background-color: azure;
+    padding: 10px 0px 20px 0px;
+    background-size: auto;
+}
+
+h1{
+    color: purple;
+}
+
+a{
+    color: red;
+}
+
+.home{
+    background-color: floralwhite;
+    padding: 10px 30px;
+    font-size: 40px;
+    width: 50%;
+    max-width: 100px;
+    padding: 5px;
+}
+
+.videocontent{
+    border-width: thin 100px;
+    border: solid black;
+    background-color: cornsilk;
+    padding: 20px 150px;
+    margin: 100px;
+}
+
+.first{
+    padding: 20px 20px 0px 20px;
+}
+
+h1{
+    text-align: center;
+    text-size-adjust: 100px;
+}
+
+.firstline{
+    background-color: floralwhite;
+    padding: 10px 30px;
+    font-size: 20px;
+    width: 50%;
+    max-width: 50em;
+    text-indent: 80px;
+}
+
+.website{
+    position: absolute;
+    bottom: 2px;
+    font-size: 40px;
+    border: 3px solid ghostwhite;
+}
+
+.manga{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: cover;
+    padding-top: 40px;
+}
+
+.next{
+    background-color: rosybrown;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 30px;
+}
+
+.end{
+    background-color: rosybrown;
+    position: absolute;
+    bottom: 50px;
+    right: 16px;
+    font-size: 30px;
+}
+
+.previous{
+    background-color: rosybrown;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 30px;
+}
+
+.original{
+    background-color: rosybrown;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 30px;
+}
+
+.heading{
+    border-width: thin 100px;
+    border: solid black;
+    background-color: cornsilk;
+    padding: 20px 150px;
+    margin: 100px;
+}
+
+.content{
+    font-size: 18px;
+}
